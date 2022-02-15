@@ -52,7 +52,10 @@ client.on('message', message => {
     } else if (command === 'unmute') { //unmute command, 
         client.commands.get('unmute').execute(message, args);
 
-    } //else if (command === 'getrole'){
+    } else if (command === 'dm') {
+        client.commands.get('dm').execute(client, message, args);
+    }
+    //else if (command === 'getrole'){
     //client.commands.get('getrole').execute(message, args);
     // }
 });
