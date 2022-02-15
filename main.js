@@ -90,9 +90,10 @@ client.on('message', message => { //Commands without the prefix, for funs normal
     } else if (message.mentions.members.has('240694939950907394')) {
         client.commands.get('mention').execute(message, args);
 
-    } else if (message.author.id === '872528318681980979') {
-        message.channel.bulkDelete(1);
-    } else if (message.content == "https://www.youtube.com/channel/UCzD4rcGh_l76BCY3VI5Hb2A") {
+    } else if (message.author.id === '872528318681980979') { //U can replace the id with the one u want and will delete the user ID messages
+        message.channel.bulkDelete(1); //didnt use a separate file there
+
+    } else if (message.content == "https://www.youtube.com/channel/UCzD4rcGh_l76BCY3VI5Hb2A") { //The same goes with this but u can use a link
         message.channel.bulkDelete(1);
     }
 });
