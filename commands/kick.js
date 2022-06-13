@@ -10,7 +10,7 @@ module.exports = {
                     if (target.kickeable) {
                         kickd = Math.floor(Math.random() * 10);
                         const mensaje = "ha sido kickeado ";
-                        if (kickd == kickd) {
+                        if (kickd == 1) {
                             target.kick();
                             message.channel.send(":wave: " + mensaje + target.displayName);
                             console.log(kickd);
