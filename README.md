@@ -1,5 +1,5 @@
 # LeoFunBot
-The first thing i code that is not simple java expressions
+Bot for discord
 
 I started coding this bot cuz i was bored and tried to make it so it can kick a user everytime he speaks.
 
