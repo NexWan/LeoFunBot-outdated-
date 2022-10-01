@@ -13,3 +13,5 @@ Music bot to be added(not assured)
 Fun commands like how gay to be added
 
 Message embends to be added
+
+(idk when im going to finish all this shit, but probably the next year since im way too lazy)
