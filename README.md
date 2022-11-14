@@ -14,4 +14,4 @@ Fun commands like how gay to be added
 
 Message embends to be added
 
-(idk when im going to finish all this shit, but probably the next year since im way too lazy)
+(I've stopped working on this project since i lost the og source of this bot, im going to keep working on a new one, u can check it out [here](https://github.com/NexWan/leo-new-bot)
